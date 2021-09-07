@@ -34,13 +34,13 @@ struct CoinManager {
                 }
                 //Format a data we got back as a string to be able to print it.
                 if let safeData = data {
-                   if let bitcoinPrice = self.parseJSON(safeData) {
-                    
-                    let priceString = String(format: "%.2f", bitcoinPrice)
-                    
-                    self.delegate?.didUpdatePrice(price: priceString, currency: currency)
+                    if let bitcoinPrice = self.parseJSON(safeData) {
+                        
+                        let priceString = String(format: "%.2f", bitcoinPrice)
+                        
+                        self.delegate?.didUpdatePrice(price: priceString, currency: currency)
+                    }
                 }
-            }
             }
             
             
