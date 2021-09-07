@@ -1,14 +1,9 @@
-Byte Coin is a simple and clean Bitcoin price ticker. 
+# ByteCoin
 
-The app will give you the latest Bitcoin prices in all the popular, traded currencies, so you can track how well your Bitcoin investments are doing on the go.
+Byte Coin is a simple and clean Bitcoin price ticker, that shows latest Bitcoin prices in all the popular, traded currencies, using HTTP requests and JSONDecoder for JSON parsing. 
 
-The main goal of this project was to imrove the skills of using URLSession to make HTTP requests and JSONDecoder for JSON parsing. 
+![IMG_6750](https://user-images.githubusercontent.com/85921199/132402597-ee4cccf0-b307-4ff2-8436-e5386a53645a.PNG)
 
-
-
-
-
-based on the iOS & Swift - The Complete iOS App Development Bootcamp, Udemy.com
-
+https://www.udemy.com/course/ios-13-app-development-bootcamp/
         
 
