@@ -29,28 +29,12 @@ struct ContentView: View {
                     .foregroundColor(.white)
                     .font(.system(size: 25))
                 Divider()
-                RoundedRectangle(cornerRadius: 25)
-                    .fill(Color.white)
-                    .frame(height: 50)
-                    .overlay(HStack {
-                        Image(systemName: "phone.fill")
-                            .foregroundColor(.green)
-                        Text("+7 925 407 92 50")
-                    })
-
-                
-            
-                
-
-                
+                InfoView(text: "+7 925 407 925 0", imageView: "phone.fill")
+                InfoView(text: "dr.morozov@hotmail.com", imageView: "envelope.fill")
                 
             }
         }
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
-    }
-}
+

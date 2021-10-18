@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		473D6D28271E01D100B34750 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 473D6D27271E01D100B34750 /* InfoView.swift */; };
 		476EB121271C930700626B30 /* AleksandrCardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476EB120271C930700626B30 /* AleksandrCardApp.swift */; };
 		476EB123271C930700626B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 476EB122271C930700626B30 /* ContentView.swift */; };
 		476EB125271C930800626B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 476EB124271C930800626B30 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		473D6D27271E01D100B34750 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		476EB11D271C930700626B30 /* AleksandrCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AleksandrCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		476EB120271C930700626B30 /* AleksandrCardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleksandrCardApp.swift; sourceTree = "<group>"; };
 		476EB122271C930700626B30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				476EB12E271C973800626B30 /* fonts */,
 				476EB120271C930700626B30 /* AleksandrCardApp.swift */,
 				476EB122271C930700626B30 /* ContentView.swift */,
+				473D6D27271E01D100B34750 /* InfoView.swift */,
 				476EB124271C930800626B30 /* Assets.xcassets */,
 				476EB131271C97EA00626B30 /* Launch Screen.storyboard */,
 				476EB126271C930800626B30 /* Preview Content */,
@@ -156,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				476EB123271C930700626B30 /* ContentView.swift in Sources */,
+				473D6D28271E01D100B34750 /* InfoView.swift in Sources */,
 				476EB121271C930700626B30 /* AleksandrCardApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
